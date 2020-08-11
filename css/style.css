@@ -301,7 +301,7 @@ font-size: 45px;
 
 .key{
 
-  background-color: #e5e5e5;
+  background-color: #ffffff;
   width: 100%;
   padding-top: 40px;
   padding-bottom: 40px;
@@ -609,7 +609,7 @@ font-size: 17.5px;
 
 .services .color-div {
     background: #4f4085;
-    width: 60%;
+    width: 45%;
     margin: 0 auto;
     color: #fff;
     border-radius: 4px;
