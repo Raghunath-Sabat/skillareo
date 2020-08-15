@@ -79,10 +79,11 @@ body {
     font-weight: 700;
     border-width: 2px;
     border-style: solid;
-    border-radius: 0;
+    border-radius: 30px;
     text-decoration: none;
     display: inline-block;
     line-height: 1.5;
+
 }
 .btn-link {
     color: #4f4085;
@@ -97,7 +98,7 @@ body {
 
 
 .theme .area {
-		position: relative;
+	position: relative;
 	max-width: 700px;
 	margin: 50px auto;
 	padding-left: 10px;
