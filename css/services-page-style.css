@@ -185,7 +185,7 @@ padding-top: 170px;
 
 }
 
-@media only screen and (max-width: 786px) {
+@media only screen and (max-width: 768px) {
 
 
 .main-header img{
@@ -193,13 +193,14 @@ padding-top: 170px;
 	max-width: 400px;
 	max-height: 300px;
 	margin-left: -80px;
+	display: none;
 
 }
 
 
 .main-header{
 	padding-top: 140px;
-	height: 650px;
+	height: 600px;
 }
 
 
