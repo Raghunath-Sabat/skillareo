@@ -1,0 +1,14 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^www\.skillareo\.com [NC]
+RewriteRule ^(.*)$ http://skillareo.com/$1 [L,R=301]
+</IfModule>
+
+RewriteCond %{HTTPS} off
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}
+Options -Indexes
+ 
+FileETag MTime Size
+ErrorDocument 403 /forbidden.html
+ErrorDocument 404 /index.php
+ErrorDocument 500 /servererror.html
