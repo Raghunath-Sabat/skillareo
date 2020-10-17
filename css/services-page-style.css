@@ -193,14 +193,13 @@ padding-top: 170px;
 	max-width: 400px;
 	max-height: 300px;
 	margin-left: -80px;
-	display: none;
 
 }
 
 
 .main-header{
 	padding-top: 140px;
-	height: 600px;
+	height: 650px;
 }
 
 
@@ -238,6 +237,13 @@ padding-top: 170px;
 }
 
 }
+
+@media (max-width: 767px) {
+    .main-header img{
+    	display: none;
+    }
+}
+
 
 
 
