@@ -204,9 +204,6 @@ padding-top: 170px;
 	height: 650px;
 }
 
-.google-ads-packages .packages-h2 h2{
-  font-size: 27px;
-}
 
 
 }
@@ -220,20 +217,12 @@ padding-top: 170px;
 }
 
 
-.google-ads-packages .packages-h2 h2{
-  font-size: 25px;
-}
-
 
 }
 
 @media only screen and (max-width: 375px) {
 
 
-
-.google-ads-packages .packages-h2 h2{
-  font-size: 23px;
-}
 
 
 }
@@ -242,10 +231,6 @@ padding-top: 170px;
 @media only screen and (max-width: 320px) {
 
 
-
-.google-ads-packages .packages-h2 h2{
-  font-size: 20px;
-}
 
 
 }
@@ -330,7 +315,6 @@ padding-top: 170px;
   text-align:center; 
   font-size: 28px; 
   padding-bottom: 20px;
-  font-weight: 900;
 }
 
 
