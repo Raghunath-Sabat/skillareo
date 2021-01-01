@@ -219,9 +219,6 @@ padding-top: 170px;
 	height: 693px;
 }
 
-.main-header h2{
-  font-size: 41px;
-}
 
 .google-ads-packages .packages-h2 h2{
   font-size: 25px;
@@ -233,9 +230,6 @@ padding-top: 170px;
 @media only screen and (max-width: 375px) {
 
 
-.main-header h2{
-	font-size: 35px;
-}
 
 .google-ads-packages .packages-h2 h2{
   font-size: 23px;
@@ -248,9 +242,6 @@ padding-top: 170px;
 @media only screen and (max-width: 320px) {
 
 
-.main-header h2{
-	
-}
 
 .google-ads-packages .packages-h2 h2{
   font-size: 20px;
