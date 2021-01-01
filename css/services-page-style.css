@@ -175,11 +175,22 @@ padding-top: 170px;
 
 /* main-header */
 
+
 @media only screen and (max-width: 1024px) {
 
 
+.main-header h2{
+  font-size: 40px;
+}
+
+
+}
+
+@media only screen and (max-width: 1023px) {
+
+
 .main-header img{
-	padding-top: 80px;
+  display: none;
 }
 
 
@@ -188,18 +199,13 @@ padding-top: 170px;
 @media only screen and (max-width: 768px) {
 
 
-.main-header img{
-	padding-top: 30px;
-	max-width: 400px;
-	max-height: 300px;
-	margin-left: -80px;
-
+.main-header{
+	padding-top: 170px;
+	height: 650px;
 }
 
-
-.main-header{
-	padding-top: 140px;
-	height: 650px;
+.google-ads-packages .packages-h2 h2{
+  font-size: 27px;
 }
 
 
@@ -208,14 +214,19 @@ padding-top: 170px;
 @media only screen and (max-width: 425px) {
 
 
-.main-header img{
-	display: none;
-}
-
 .main-header{
 	padding-top: 150px;
 	height: 693px;
 }
+
+.main-header h2{
+  font-size: 41px;
+}
+
+.google-ads-packages .packages-h2 h2{
+  font-size: 25px;
+}
+
 
 }
 
@@ -223,8 +234,13 @@ padding-top: 170px;
 
 
 .main-header h2{
-	font-size: 43px;
+	font-size: 35px;
 }
+
+.google-ads-packages .packages-h2 h2{
+  font-size: 23px;
+}
+
 
 }
 
@@ -233,8 +249,13 @@ padding-top: 170px;
 
 
 .main-header h2{
-	font-size: 40px;
+	
 }
+
+.google-ads-packages .packages-h2 h2{
+  font-size: 20px;
+}
+
 
 }
 
@@ -254,7 +275,7 @@ padding-top: 170px;
 }
 
 .google-ads-packages{
-  padding: 5% 10% 10% 10%;
+  padding: 5% 5% 5% 5%;
 }
 
 .columns {
@@ -265,7 +286,7 @@ padding-top: 170px;
 
 .price {
   list-style-type: none;
-  border: 1px solid #eee;
+  border: 1px solid #a7a7a7;
   margin: 0;
   padding: 0;
   -webkit-transition: 0.3s;
@@ -276,35 +297,49 @@ padding-top: 170px;
   box-shadow: 0 8px 9px 0 rgba(0,0,0,0.2)
 }
 
-.price .header {
-  background-color: #111;
-  color: white;
-  font-size: 25px;
-}
 
 .price li {
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #a7a7a7;
   padding: 15px;
   text-align: left;
 }
 
 
-.price .grey {
+.price .table-header {
   background-color: #4f4085;
   font-size: 20px;
   color: #ffffff;
+  padding: 30px;
+  font-weight: 600;
+}
+
+.price .table-footer{
+  background-color: #ffffff;
+  font-size: 20px;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .button {
   border-radius: 6px;
-  background-color: #ffffff;
+  background-color: #4f4085;
   border: none;
-  color: #4f4085;
-  padding: 10px 25px;
+  color: #ffffff;
+  padding: 10px;
   text-align: center;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 15px;
   outline: none;
+  font-weight: 600;
+}
+
+.packages-h2 {
+  text-align:center; 
+  font-size: 28px; 
+  padding-bottom: 20px;
+  font-weight: 900;
 }
 
 
