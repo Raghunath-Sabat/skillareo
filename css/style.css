@@ -404,6 +404,10 @@ padding-right: 20px;
   margin-top: -150px;
 }
 
+.best-digital-agency-image{
+  margin-top: -40px;
+}
+
 
 }
 
@@ -422,6 +426,9 @@ padding-right: 0px;
   margin-top: 20px;
 }
 
+.best-digital-agency-image{
+  margin-top: -40px;
+}
 
 }
 
@@ -533,7 +540,7 @@ padding-right: 0px;
     max-width: 100%;
     float: right;
     display: inline-block;
-    padding-top: 40px;
+    padding-top: 100px;
 
 }
 
