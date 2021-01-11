@@ -799,6 +799,14 @@ font-size: 17.5px;
   margin-top: 40px;
 }
 
+.homepage-portfolio span{
+  font-weight: bold; 
+  color: #ffffff; 
+  background-color: #4f4085; 
+  padding: 6px; 
+  border-radius: 3px;
+}
+
 .homepage-portfolio p{
   font-size: 35px;
   font-weight: 700;
@@ -900,6 +908,10 @@ font-size: 17.5px;
 
  .homepage-portfolio p{
   font-size: 19px;
+ }
+
+  .homepage-portfolio h2{
+  font-size: 27px;
  }
 
 
