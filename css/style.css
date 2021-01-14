@@ -13,6 +13,7 @@ a {
   color: white;
   font-size: 15px;
   text-align: center;
+  max-width: 100%;
 }
 
 .alert a{
@@ -21,12 +22,16 @@ a {
   text-decoration: none;
 }
 
+.alert p{
+  margin-bottom: 0px;
+}
+
 .alert .note{
   font-weight: bold; 
   background-color: #ffffff; 
   color: #4f4085; 
   padding: 1px 3px 1px 3px; 
-  border-radius: 3px;
+  border-radius: 0px;
 }
 
 .closebtn {
@@ -54,14 +59,6 @@ a {
 
 }
 
-@media only screen and (max-width: 375px){
-
-  .alert p{
-    text-align: left;
-    font-size: 11px;
-  }
-
-}
 
 
 
