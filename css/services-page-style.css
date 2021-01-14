@@ -244,7 +244,7 @@ padding-top: 170px;
 
 
 
-/* test */
+/* Google-ads-service-style.css */
 
 .google-ads-packages{
   padding: 5% 5% 5% 5%;
@@ -252,9 +252,7 @@ padding-top: 170px;
 }
 
 .columns {
-  float: left;
-  width: 33.3%;
-  padding: 8px;
+  margin-top: 30px;
 }
 
 .price {
