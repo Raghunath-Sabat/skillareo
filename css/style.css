@@ -5,6 +5,66 @@ a {
   color: #000000;
 }
 
+/* info-box */
+
+.alert {
+  padding: 0px;
+  background-color: #4f4085;
+  color: white;
+  font-size: 15px;
+  text-align: center;
+}
+
+.alert a{
+  color: #ffffff; 
+  font-weight: bold; 
+  text-decoration: none;
+}
+
+.alert .note{
+  font-weight: bold; 
+  background-color: #ffffff; 
+  color: #4f4085; 
+  padding: 1px 3px 1px 3px; 
+  border-radius: 3px;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.chat:hover {
+  color: #29B2E3;
+  transition: 0.5s;
+}
+
+@media only screen and (max-width: 425px){
+
+  .alert p{
+    text-align: left;
+    font-size: 13px;
+  }
+
+}
+
+@media only screen and (max-width: 375px){
+
+  .alert p{
+    text-align: left;
+    font-size: 11px;
+  }
+
+}
+
+
+
 /* header */
 
 
