@@ -999,12 +999,147 @@ font-size: 17.5px;
 
 }
 
+
+
+/* URL Relocation India - Success Story*/
+
+
+.intro-urlrelocation ol{
+  list-style: none;
+}
+
+.intro-urlrelocation .solutions{
+  font-size: 16px;
+  counter-increment: my-awesome-counter;
+  margin-bottom: 10px;
+  display: list-item;
+}
+
+.intro-urlrelocation .solutions::before {
+  content: counter(my-awesome-counter) ". ";
+  color: #000;
+  font-weight: bold;
+}
+
+.intro-urlrelocation ul{
+  list-style: none;
+}
+
+.intro-urlrelocation ul li{
+  font-size: 16px;
+  counter-increment: my-awesome-counter;
+  margin-bottom: 10px;
+  display: list-item;
+
+}
+
+.intro-urlrelocation ul li::before {
+  content: "■";
+  padding-left: 0px;
+  padding-right: 5px;
+}
+
+.platform-offered .growth-result{
+    margin-left: 0px;
+  }
+
+  .smm-div {
+    background-color: #fafafa;
+    padding-top: 40px;
+    padding-bottom: 80px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+  }
+
+
+
+@media only screen and (max-width: 1024px){
+.urlrelocation-header img{
+   margin-top: -70px;
+}
+}
+
+@media only screen and (max-width: 768px){
+  .urlrelocation-header .header h1{
+    font-size: 30px;
+  }
+
+  .platform-offered .growth-result{
+    margin-left: 0px;
+    padding-left: 8px;
+  }
+
+}
+
+@media only screen and (max-width: 425px){
+  .urlrelocation-header .header h1{
+    font-size: 29px;
+  }
+
+  .urlrelocation-header img{
+   margin-top: -20px;
+}
+
+.intro-urlrelocation p{
+  text-align: justify;
+
+}
+
+  .platform-offered .growth-result{
+    padding-top: 20px;
+  }
+
+  p{
+    text-align: justify;
+  }
+
+  li{
+    text-align: justify;
+  }
+
+
+}
+
+@media only screen and (max-width: 375px){
+  .urlrelocation-header .header h1{
+    font-size: 27px;
+  }
+
+  .urlrelocation-header img{
+   margin-top: -20px;
+}
+
+  .intro-urlrelocation h2{
+  font-size: 25px;
+
+}
+
+
+}
+
+@media only screen and (max-width: 320px){
+  .urlrelocation-header .header h1{
+    font-size: 23px;
+  }
+
+  .intro-urlrelocation h2{
+  font-size: 22px;
+
+}
+
+
+}
+
+
+
+
 /* footer */
 
 
 .page-footer h6{
   color: #fff;
-  font-weight: 300;
+  font-weight: 600;
+  font-size: 16px;
 
 }
 
@@ -1060,19 +1195,22 @@ font-size: 17.5px;
 
 .footer-company{
 
-margin-bottom: -15px;
+margin-bottom: 0px;
+text-align: left;
+margin-top: 25px;
 
 }
 
 .footer-services{
 
-margin-bottom: -15px;
+margin-bottom: 0px;
+text-align: left;
+margin-top: 25px;
 
 }
 
 .footer-contact{
-
-margin-bottom: -15px;
+  margin-top: 25px;
 
 }
 
@@ -1084,10 +1222,6 @@ margin-bottom: -15px;
 
 
 @media (min-width: 768px) and (max-device-width: 768px){
-
-.page-footer .container{
-  margin-left: 70px;
-}
 
 }
 
@@ -1137,12 +1271,6 @@ margin-bottom: -15px;
   padding-top: 200px;
 }
 
-
-
-
-
-
-/* Portfolio-page-CSS-Styles */
 
 
 
