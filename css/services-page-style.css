@@ -316,8 +316,212 @@ padding-top: 170px;
 }
 
 
-/* footer */
+/* seo-services-page-true*/
 
+
+.process-section {
+    padding-top: 70px;
+    padding-bottom: 5rem;
+    background-color: #f1f4fa;
+}
+
+.seo-campaign-process h2{
+  font-size: 30px;
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+
+.seo-campaign-process p{
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.wrap {
+    background: white;
+    padding: 25px 25px;
+    box-shadow: 0px 2px 5px rgba(24,32,111,0.2);
+    margin-bottom: 2rem;
+}
+
+.wrap:hover {
+    box-shadow: 7px 7px 30px -5px rgba(0,0,0,0.1);
+}
+
+ .text-wrap h4 {
+    font-size: 17px;
+    font-weight: 500;
+    text-align: left;
+    display: inline-block;
+    margin-left: 8px;
+}
+
+.text-wrap i{
+  font-size: 30px;
+  color: #4f4085;
+}
+
+.process-explain-section {
+  margin-top: 0px;
+}
+
+/* big heading section*/
+
+.big-heading-section {
+  background-color: #4f4085;
+  color: #ffffff;
+}
+
+.big-heading-section h3{
+  font-size: 150px;
+  color: #ffffff;
+  font-weight: 900;
+  font-family: proxima-nova,sans-serif;
+  text-align: center;
+  padding: 10px;
+
+}
+
+/* process-explain*/
+
+.process-explain {
+  margin-top: 0px;
+}
+
+ul.timeline {
+    list-style-type: none;
+    position: relative;
+}
+ul.timeline:before {
+    content: ' ';
+    background-color: #4f4085;
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 2px;
+    height: 100%;
+    z-index: 400;
+}
+ul.timeline > li {
+    margin: 20px 0;
+    padding-left: 50px;
+}
+ul.timeline > li:before {
+    content: ' ';
+    background: white;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #4f4085;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    z-index: 400;
+}
+
+
+
+/* why choose us */
+
+.service-1 {
+  font-family: "Montserrat", sans-serif;
+  color: #8d97ad;
+  font-weight: 300;
+  margin-top: 40px;
+}
+
+.service-1 h2{
+  margin-top: 10px;
+  margin-bottom: 40px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.service-1 h1,
+.service-1 h2,
+.service-1 h3,
+.service-1 h4,
+.service-1 h5,
+.service-1 h6 {
+  color: #3e4555;
+}
+
+.service-1 .font-weight-medium {
+  font-weight: 500;
+}
+
+.service-1 .bg-light {
+  background-color: #f4f8fa !important;
+}
+
+.service-1 .subtitle {
+  color: #8d97ad;
+  line-height: 24px;
+}
+
+.service-1 .card.card-shadow {
+  box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.1);
+}
+
+.service-1 .wrap-service1-box .card-body {
+  padding: 40px;
+}
+
+.service-1 .btn-success-gradiant {
+  background: #2cdd9b;
+  background: linear-gradient(to right, #2cdd9b 0%, #1dc8cc 100%);
+  border: 0px;
+}
+
+.service-1 .btn-success-gradiant:hover {
+  background: #1dc8cc;
+  background: linear-gradient(to right, #1dc8cc 0%, #2cdd9b 100%);
+}
+
+.service-1 .btn-md {
+  padding: 15px 45px;
+  font-size: 16px;
+}
+
+
+
+/* CTR */
+.c2a1 {
+  font-family: "Montserrat", sans-serif;
+  color: #8d97ad;
+  font-weight: 300;
+  background-position: center top;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.c2a1 h1, .c2a1 h2, .c2a1 h3, .c2a1 h4, .c2a1 h5, .c2a1 h6 {
+  color: #3e4555;
+}
+
+.c2a1 .op-8 {
+  opacity: 0.8;
+}
+
+.c2a1 .font-weight-medium {
+  font-weight: 500;
+}
+
+.c2a1 .btn-danger-gradiant {
+  background: #ff4d7e;
+  background: linear-gradient(to right, #ff4d7e 0%, #ff6a5b 100%);
+}
+
+ .c2a1 .btn-danger-gradiant:hover {
+  background: #ff6a5b;
+  background: linear-gradient(to right, #ff6a5b 0%, #ff4d7e 100%);
+}
+
+.c2a1 .btn-md {
+    padding: 15px 45px;
+    font-size: 16px;
+}
+
+/* footer */
 
 .page-footer h6{
   color: #fff;
