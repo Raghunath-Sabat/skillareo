@@ -390,6 +390,10 @@ padding-top: 130px;
   margin-top: 0px;
 }
 
+.process-explain-section li h5{
+  font-weight: 900;
+}
+
 ul.timeline {
     list-style-type: none;
     position: relative;
@@ -437,6 +441,10 @@ ul.timeline > li:before {
   margin-bottom: 40px;
   text-align: center;
   font-weight: 600;
+}
+
+.service-1 h6 {
+  font-weight: 900;
 }
 
 .service-1 h1,
@@ -651,7 +659,9 @@ margin-bottom: -15px;
 
 @media only screen and (max-width: 375px){
   .process-section h2{
-    font-size: 23px;
+    font-size: 28px;
+    margin-bottom: 10px;
+    font-weight: 900;
   }
 
   .service-1 h2{
@@ -661,6 +671,12 @@ margin-bottom: -15px;
   .CTR-section h2{
     font-size: 23px;
     font-weight: 900;
+  }
+}
+
+@media only screen and (max-width: 320px){
+  .process-section h2{
+    font-size: 25px;
   }
 }
 
