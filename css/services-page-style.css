@@ -212,8 +212,11 @@ padding-top: 170px;
 
 
 .main-header{
-	padding-top: 150px;
-	height: 693px;
+
+height: 580px;
+background-color: #4f4085;
+padding-top: 130px;
+
 }
 
 
@@ -321,7 +324,7 @@ padding-top: 170px;
 
 .process-section {
     padding-top: 70px;
-    padding-bottom: 5rem;
+    padding-bottom: 60px;
     background-color: #f1f4fa;
 }
 
@@ -426,11 +429,11 @@ ul.timeline > li:before {
   font-family: "Montserrat", sans-serif;
   color: #8d97ad;
   font-weight: 300;
-  margin-top: 40px;
+  margin-top: 0px;
 }
 
 .service-1 h2{
-  margin-top: 10px;
+  margin-top: 20px;
   margin-bottom: 40px;
   text-align: center;
   font-weight: 600;
@@ -466,23 +469,6 @@ ul.timeline > li:before {
   padding: 40px;
 }
 
-.service-1 .btn-success-gradiant {
-  background: #2cdd9b;
-  background: linear-gradient(to right, #2cdd9b 0%, #1dc8cc 100%);
-  border: 0px;
-}
-
-.service-1 .btn-success-gradiant:hover {
-  background: #1dc8cc;
-  background: linear-gradient(to right, #1dc8cc 0%, #2cdd9b 100%);
-}
-
-.service-1 .btn-md {
-  padding: 15px 45px;
-  font-size: 16px;
-}
-
-
 
 /* CTR */
 .c2a1 {
@@ -490,12 +476,16 @@ ul.timeline > li:before {
   color: #8d97ad;
   font-weight: 300;
   background-position: center top;
-    background-size: cover;
-    background-attachment: fixed;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .c2a1 h1, .c2a1 h2, .c2a1 h3, .c2a1 h4, .c2a1 h5, .c2a1 h6 {
   color: #3e4555;
+}
+
+.CTR-section h2 {
+  color: #ffffff;
 }
 
 .c2a1 .op-8 {
@@ -512,8 +502,8 @@ ul.timeline > li:before {
 }
 
 .c2a1 .btn-md {
-    padding: 15px 45px;
-    font-size: 16px;
+    padding: 10px 20px;
+    font-size: 14px;
 }
 
 /* footer */
@@ -648,7 +638,30 @@ margin-bottom: -15px;
   text-align: left;
 }
 
+.big-heading-section h3{
+  font-size: 12vw;
+}
 
+.process-explain-section li p{
+  text-align: justify;
+}
+
+
+}
+
+@media only screen and (max-width: 375px){
+  .process-section h2{
+    font-size: 23px;
+  }
+
+  .service-1 h2{
+    font-size: 25px;
+  }
+
+  .CTR-section h2{
+    font-size: 23px;
+    font-weight: 900;
+  }
 }
 
 
