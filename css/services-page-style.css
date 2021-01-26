@@ -372,7 +372,7 @@ padding-top: 170px;
 }
 
 .big-heading-section h3{
-  font-size: 150px;
+  font-size: 11vw;
   color: #ffffff;
   font-weight: 900;
   font-family: proxima-nova,sans-serif;
@@ -507,13 +507,8 @@ ul.timeline > li:before {
 }
 
 .c2a1 .btn-danger-gradiant {
-  background: #ff4d7e;
-  background: linear-gradient(to right, #ff4d7e 0%, #ff6a5b 100%);
-}
-
- .c2a1 .btn-danger-gradiant:hover {
-  background: #ff6a5b;
-  background: linear-gradient(to right, #ff6a5b 0%, #ff4d7e 100%);
+  background-color: #ffffff;
+  font-weight: 600;
 }
 
 .c2a1 .btn-md {
