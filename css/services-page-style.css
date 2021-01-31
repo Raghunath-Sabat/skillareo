@@ -323,15 +323,15 @@ padding-top: 130px;
 
 
 .process-section {
-    padding-top: 70px;
-    padding-bottom: 60px;
+    padding-top: 40px;
+    padding-bottom: 50px;
     background-color: #f1f4fa;
 }
 
 .seo-campaign-process h2{
   font-size: 30px;
   font-weight: 900;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 .seo-campaign-process p{
@@ -442,6 +442,18 @@ ul.timeline > li:before {
   margin-bottom: 10px;
   text-align: center;
   font-weight: 600;
+}
+
+.service-1 .why-choose-p{
+  text-align: center; 
+  color: #3e4555;
+}
+
+.service-1 .why-choose-p-bold{
+  text-align: center; 
+  color: #3e4555;
+  font-weight: 600;
+
 }
 
 .service-1 h6 {
