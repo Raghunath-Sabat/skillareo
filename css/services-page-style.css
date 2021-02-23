@@ -442,6 +442,10 @@ padding-top: 130px;
   font-weight: 900;
 }
 
+.process-explain-section .col-lg-12{
+  margin-left: -20px;
+}
+
 ul.timeline {
     list-style-type: none;
     position: relative;
