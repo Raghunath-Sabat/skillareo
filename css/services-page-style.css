@@ -387,6 +387,11 @@ padding-top: 130px;
   padding-top: 50px;
 }
 
+.seo-stats-section .reasons {
+  margin-bottom: 5px;
+  font-weight: 900;
+}
+
 .seo-stats .stats-content h3{
   font-size: 30px;
   font-weight: bold;
@@ -399,7 +404,6 @@ padding-top: 130px;
 .seo-stats-section li{
   font-size: 15px;
   line-height: 24px;
-  font-weight: 600;
 }
 
 .bottom-para h4{
