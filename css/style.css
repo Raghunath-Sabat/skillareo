@@ -371,22 +371,28 @@ font-size: 45px;
   background-color: #ffffff;
   width: 100%;
   padding-top: 40px;
-  padding-bottom: 40px;
+  padding-bottom: 0px;
+}
+
+.key img{
+  margin-top: -40px; 
+  margin-left: 150px; 
+  height: 600px;
 }
 
 
 .key .container p{
 
- text-align: center;
+ text-align: justify;
   
 }
 
 .key .container h1{
 
-  font-weight: 700;
-  text-align: center;
-  color: #000;
-  font-size: 38px;
+  font-weight: bold;
+  text-align: left;
+  color: #272727;
+  font-size: 30px;
 
 }
 
@@ -400,6 +406,11 @@ font-size: 45px;
 
 .key .container p{
   text-align: justify;
+}
+
+.key img{
+  margin-top: 0px; 
+  margin-left: 20px; 
 }
 
 }
