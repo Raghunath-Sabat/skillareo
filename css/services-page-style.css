@@ -578,6 +578,12 @@ ul.timeline > li:before {
     font-size: 14px;
 }
 
+/* CTR Button Bottom */
+
+.bottom-CTR h2 {
+  font-size: 1.90rem;
+}
+
 /* footer */
 
 .page-footer h6{
