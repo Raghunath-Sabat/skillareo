@@ -19,6 +19,7 @@ a {
   padding: 0;
   list-style: none;
   overflow: hidden;
+  font-size: 18px;
 
 }
 
@@ -166,7 +167,6 @@ padding-top: 170px;
   font-weight: bold;
   color: #ffffff;
   text-transform: unset;
-  font-family: lato;
   margin-top: 40px;
   text-align: left;
 
@@ -584,6 +584,49 @@ ul.timeline > li:before {
   font-size: 1.90rem;
 }
 
+/* what-we-do* skillareo-about-us-page*/
+
+.what-we-do h3{
+  font-size: 6rem;
+  line-height: 1;
+  text-transform: uppercase;
+  color: #2e2e2e;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.what-we-do p{
+  font-size: 1.20rem;
+  text-align: center;
+  color: #869298;
+}
+
+.what-we-do .Revenue-Generating{
+  background-color: #4f4085;
+  color: #ffffff;
+  padding: 2px 5px 2px 5px;
+  border-radius: 2px;
+}
+
+.main-about-us-section{
+  margin-top: 20px;
+  background-color: #f1f5fa;
+  padding-top: 60px;
+}
+
+.main-about-us-section h3{
+  font-size: 2.6vw;
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.main-about-us-section p{
+  font-size: 1.20rem;
+  color: #869298;
+}
+
 /* footer */
 
 .page-footer h6{
@@ -677,6 +720,10 @@ margin-bottom: -15px;
   margin-left: 70px;
 }
 
+.what-we-do h3{
+  font-size: 4rem;
+}
+
 }
 
 
@@ -724,6 +771,16 @@ margin-bottom: -15px;
   text-align: justify;
 }
 
+.what-we-do h3{
+  font-size: 3rem;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+.what-we-do p{
+  font-size: 0.90rem;
+}
+
 
 }
 
@@ -742,6 +799,16 @@ margin-bottom: -15px;
     font-size: 23px;
     font-weight: 900;
   }
+
+  .what-we-do h3{
+  font-size: 2.50rem;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+.what-we-do p{
+  font-size: 0.80rem;
+}
 }
 
 @media only screen and (max-width: 320px){
