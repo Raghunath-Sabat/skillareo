@@ -341,23 +341,7 @@ font-size: 45px;
 .main-header h2{
 
   float: left;
-  font-size: 36px;
- 
-
-}
-
-
-}
-
-
-
-@media only screen and (max-width: 375px) {
-
-
-.main-header h2{
-
-  float: left;
-  font-size: 26px;
+  font-size: 8.3vw;
  
 
 }
