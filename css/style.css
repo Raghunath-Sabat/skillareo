@@ -253,7 +253,6 @@ padding-top: 200px;
   animation: changetext 10s infinite linear;
   color: #ffffff;
   background-color: #95C52D;
-  padding: 0px 0px 0px 0px;
 }
 
 @keyframes changetext{
