@@ -605,10 +605,7 @@ ul.timeline > li:before {
 }
 
 .what-we-do .Revenue-Generating{
-  background-color: #4f4085;
-  color: #ffffff;
-  padding: 2px 5px 2px 5px;
-  border-radius: 2px;
+  font-weight: 600;
 }
 
 .main-about-us-section{
