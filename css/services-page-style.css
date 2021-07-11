@@ -257,6 +257,19 @@ padding-top: 130px;
   box-sizing: border-box;
 }
 
+.google-ads-packages .row{
+  max-width: 520px; 
+  margin: auto;
+}
+
+.google-ads-packages .container{
+  padding: 0px;
+}
+
+.google-ads-packages .col-lg-12{
+  padding: 0px;
+}
+
 .columns {
   margin-top: 30px;
 }
